@@ -104,7 +104,6 @@ def pregunta_06():
     ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 
     """
-    def pregunta_06():
     valoresunicos = sorted(tbl1["_c4"].str.upper().unique())
 
     return valoresunicos
